@@ -1,3 +1,5 @@
+# <p style="text-align:center"> Mejores promedios </p>
+
 Se quiere otorgar los premios al mejor estudiante del CBC este 2024. Para ello, se debe determinar los 3 mejores estudiantes. Los datos de cada alumno estan guardados de la siguiente manera:
 
 ```python

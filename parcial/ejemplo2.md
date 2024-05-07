@@ -1,3 +1,5 @@
+# <p style="text-align:center"> Dados defectuosos </p>
+
 En una fabrica de dados para juegos de mesa se quiere ver si un dado es defectuoso o no. Para ello se han realizado experimentos y se determino que se considera un dado como defectuoso en caso de hacer 10 o mas tiradas y que solo salgan la mitad o menos de los valores posibles. En caso de que las tiradas sean menores a 10, no se puede determinar si el dado esta defectuoso o no.
 
 Nos han pedido que creemos una funcion que dados una cantidad de tiradas para realizar (t) y la cantidad de caras del dado (n), indique si se puede determinar si está defectuoso o no, y en caso de que se pueda determinar, hacerlo.
@@ -28,8 +30,9 @@ experimento(11, 4) #Se hacen 11 tiradas de un dado de 4 caras
 #> El dado NO esta defectuoso
 ```
 
-OBS: Si la cantidad de caras es impar, usar division entera para calcular la mitad
-AYUDA: Se puede separar la funcionalidad de mostrar los datos por pantalla y la de 
+OBS: Si la cantidad de caras es impar, usar division entera para calcular la mitad.
+
+AYUDA: Se puede separar la funcionalidad de mostrar los datos por pantalla y la de
 tirar el dado:
 
 ```python
