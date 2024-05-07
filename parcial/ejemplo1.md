@@ -57,4 +57,12 @@ alumnos = [
 ]
 ```
 
+La salida esperada para los datos anteriores es la siguiente:
+
+```python
+Ana - 108029 - 8.6
+Juan - 108028 - 8.333333333333334
+Nehuén - 108025 - 8.166666666666666
+```
+
 Pista: Dividir el problema en subproblemas que sepan resolver
