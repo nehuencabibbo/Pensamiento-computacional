@@ -46,3 +46,5 @@ def experimento(t, n):
 
     #Hacer algo
 ```
+
+**BONUS**: Muestren los datos del experimento de menor a mayor segun el numero de cara
