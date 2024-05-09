@@ -30,9 +30,9 @@ experimento(11, 4) #Se hacen 11 tiradas de un dado de 4 caras
 #> El dado NO esta defectuoso
 ```
 
-OBS: Si la cantidad de caras es impar, usar division entera para calcular la mitad.
+**OBS**: Si la cantidad de caras es impar, usar division entera para calcular la mitad.
 
-AYUDA: Se puede separar la funcionalidad de mostrar los datos por pantalla y la de
+**AYUDA**: Se puede separar la funcionalidad de mostrar los datos por pantalla y la de
 tirar el dado:
 
 ```python

@@ -14,7 +14,7 @@ Se quiere otorgar los premios al mejor estudiante del CBC este 2024. Para ello, 
 ]
 ```
 
-Se quiere crear una funcion, que reciba la lista de informacion de los alumnos, y muestre por pantalla la informacion de los mismos con el siguiente formato, de mayor a menor:
+Se quiere crear una funcion, que reciba la lista de informacion de los alumnos, y muestre por pantalla el nombre, padron y promedio de los 3 que tengan mejor promedio, con el siguiente formato, y ordenados descendentemente por promedio:
 
 ```python
 #>nombre - padron - promedio 
@@ -67,4 +67,4 @@ Juan - 108028 - 8.333333333333334
 Nehuén - 108025 - 8.166666666666666
 ```
 
-Pista: Dividir el problema en subproblemas que sepan resolver
+**PISTA**: Dividir el problema en subproblemas que sepan resolver
