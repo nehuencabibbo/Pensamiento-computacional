@@ -5,7 +5,7 @@
 # 2 - Para cada archivo procesado, tengo que escribir en el archivo
 # indicado la informacion que procese de ese archivo
 
-# Procesar el archiv (necesito la cantidad total de palabras y
+# Procesar el archivo (necesito la cantidad total de palabras y
 # las apariciones de la palabra buscada)
 # 1 - Para cada linea del archivo:
 # 1.1 - Obtener todas las palabas de la linea y guardarme el resultado
