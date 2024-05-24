@@ -30,13 +30,14 @@ def procesar_archivo(nombre_archivo, palabra_buscada):
     total = 0
     with open(nombre_archivo, 'r') as archivo:
         lineas = archivo.readlines()
-        for linea in lineas:
-            #No es magia, en verdad hicieron esta funcion si darse cuenta, 
-            #se acuerdan del ejercicio del find? Se puede hacer de varias
-            #formas
-            apariciones += linea.strip('\n').lower().count(palabra_buscada.lower())
+        
+    for linea in lineas:
+        #No es magia, en verdad hicieron esta funcion si darse cuenta, 
+        #se acuerdan del ejercicio del find? Se puede hacer de varias
+        #formas
+        apariciones += linea.strip('\n').lower().count(palabra_buscada.lower())
 
-            total += len(linea.split('\n'))
+        total += len(linea.split('\n'))
 
     return f"{nombre_archivo};{total};{apariciones}"
 
