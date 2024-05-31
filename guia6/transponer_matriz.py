@@ -12,12 +12,11 @@ def transponer(matriz):
 
     return resultado
 
-
 ex = [[1, 2], [3, 4], [5, 6]]
-import numpy as np
-transposed = np.transpose(ex)
-
-print(f"Transpuesta con numpy: {transposed}")
 print(f"Transpuesta a mano: {transponer(ex)}")
+
+import numpy as np
+
+print(f"Transpuesta con numpy: {np.transpose(ex)}")
 
 
