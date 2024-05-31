@@ -9,11 +9,10 @@ def grep(cadena, archivo):
         #archivo, una vez que leimos el archivo, estamos 
         #en un problema de listas
         lineas = archivo.readlines()
-        for linea in lineas:
-            if cadena in linea:
-                print(linea.strip('\n'))
 
-
+    for linea in lineas:
+        if cadena in linea:
+            print(linea.strip('\n'))
 
 archivo = "7.py"
 cadena = "Escribir una funci"
