@@ -3,6 +3,7 @@
 # Se crea y deja vacío.
 
 def listar(archivos):
+    print()
     for archivo in archivos:
         print("\n")
         try:
