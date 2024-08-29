@@ -2,6 +2,7 @@
 
 - [Pagina de la materia](https://pensamientocomputacional.dev.ar/)
 - [Diapositivas](https://pensamientocomputacional.dev.ar/material.html)
+- [PyTutor](https://pythontutor.com/python-compiler.html#mode=edit), para ver linea a linea que hace su codigo
 
 # IDEs 
 
