@@ -3,7 +3,6 @@
 # 3 - Mientras me siga debiendo plata, mostrarle lo que le 
 # falta y pedirle que me pague denuevo
 # 4 - Mostrar mensaje final
-
 def cobro(monto_a_pagar):
   print(f"Su total a pagar es: {monto_a_pagar}")
   monto_pagado = int(input("Ingrese el monto a pagar: "))
@@ -13,6 +12,4 @@ def cobro(monto_a_pagar):
     monto_a_pagar -= monto_pagado
 
   print(f"Pendientes: 0. Gracias por su compra")
-
-
 
