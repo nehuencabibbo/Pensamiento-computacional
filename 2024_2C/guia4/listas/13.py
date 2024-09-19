@@ -11,14 +11,3 @@
 # 1 - Ingresar un valor 
 # 2 - Mientras el valor no sea X, me guardo el valor en una lista y vuelvo a 1
 # 3 - Devuelvo los alimentos concatenados por una coma 
-
-def lista_de_super(): 
-    alimentos = []
-    ingreso = input("Ingrese un alimento o una X para salir: ")
-    while ingreso != "X":
-        alimentos.append(ingreso)
-        ingreso = input("Ingrese un alimento o una X para salir: ")
-
-    return ", ".join(alimentos)
-
-print(lista_de_super())
